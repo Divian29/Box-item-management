@@ -1,0 +1,68 @@
+# Box Management API
+
+A Spring Boot application that manages **Boxes** and **Items**, with relationships between them.
+The project uses **Spring Boot, Spring Data JPA, PostgreSQL, and DTO mapping** for clean request/response handling.
+
+---
+
+##  Features
+- Create and manage **Boxes**
+- Create and manage **Items**
+- Each Box can contain multiple Items
+- DTOs for clean API responses
+- PostgreSQL integration
+- REST API endpoints (tested with Postman)
+
+---
+
+##  Tech Stack
+- **Java 17+**
+- **Spring Boot 3+**
+- **Spring Data JPA**
+- **PostgreSQL**
+- **Maven**
+- **Lombok**
+- **Postman** (for testing)
+
+---
+
+## Project Structure
+
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/box-item-management.git
+cd box-item-management
+
+############ Build the Project #######
+mvn clean install
+
+####### Run the Project#####
+mvn spring-boot:run
+
+#####Testing with Postman####
+
+Open Postman
+
+Create a new collection Box & Item Management
+
+Test the endpoints:
+
+POST /boxes
+
+GET /boxes
+
+GET /boxes/{id}
+
+POST /items
+
+GET /items
+
+**GET /items/{id}`
+
+
+Developed by  Chidiogo Olivia Ikejiuba
