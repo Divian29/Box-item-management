@@ -15,7 +15,7 @@ The project uses **Spring Boot, Spring Data JPA, PostgreSQL, and DTO mapping** f
 
 ---
 
-##  Tech Stack
+## 🛠️ Tech Stack
 - **Java 17+**
 - **Spring Boot 3+**
 - **Spring Data JPA**
@@ -35,8 +35,8 @@ The project uses **Spring Boot, Spring Data JPA, PostgreSQL, and DTO mapping** f
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/box-item-management.git
-cd box-item-management
+git clone https://github.com/Divian29/Box-item-management.git
+cd Box-item-management
 
 ############ Build the Project #######
 mvn clean install
